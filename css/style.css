@@ -78,5 +78,6 @@ h1 {
   	font-weight: 300;
   	letter-spacing: 0.05em;
   }
- 
- 
+ .main-content .projects-content  #ny-times {
+ 	margin-bottom: 200px;
+ }
