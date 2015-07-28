@@ -78,4 +78,7 @@ h1 {
   	font-weight: 300;
   	letter-spacing: 0.05em;
   }
+  .projects-content {
+  	border-top: solid 1px #444444;
+  }
  
