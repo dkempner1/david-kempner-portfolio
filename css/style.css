@@ -1,0 +1,81 @@
+body {
+	margin: 0 auto;
+	
+}
+.content .links li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 2em;
+	font-size: 2em;
+}
+.top-navigation {
+	background-color: #444444;
+	padding: 1em 0;
+	position: fixed;
+  	width: 100%;
+  	z-index: 9999;
+}
+
+.content, .main-content, .content-footer {
+  	text-align: center;
+	margin: 0 auto;
+	font-family: 'Abel', sans-serif;
+}
+.content-footer li {
+	display: inline-block;
+  	padding: 1em;
+}
+.content-footer  a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  	max-width: 38em;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 2em;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 110%;
+	font-weight: bolder;
+}
+
+.main-content {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 3em;
+	color: #666666;
+	padding: 2em 0;
+	background: rgba(255,194,110,1);
+	background: -moz-linear-gradient(top, rgba(255,194,110,1) 2%, rgba(255,220,171,1) 77%, rgba(255,226,187,1) 96%, rgba(219,219,219,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(2%, rgba(255,194,110,1)), color-stop(77%, rgba(255,220,171,1)), color-stop(96%, rgba(255,226,187,1)), color-stop(100%, rgba(219,219,219,1)));
+	background: -webkit-linear-gradient(top, rgba(255,194,110,1) 2%, rgba(255,220,171,1) 77%, rgba(255,226,187,1) 96%, rgba(219,219,219,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,194,110,1) 2%, rgba(255,220,171,1) 77%, rgba(255,226,187,1) 96%, rgba(219,219,219,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,194,110,1) 2%, rgba(255,220,171,1) 77%, rgba(255,226,187,1) 96%, rgba(219,219,219,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,194,110,1) 2%, rgba(255,220,171,1) 77%, rgba(255,226,187,1) 96%, rgba(219,219,219,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc26e', endColorstr='#dbdbdb', GradientType=0 );
+}
+
+h1 {
+	font-size: 2em;
+
+}
+
+.main-content > h2 {
+	font-size: 1em;
+	font-family: Roboto, sans-serif;
+	font-weight: 600;
+}
+.main-content > img {
+	border-radius: 50%;
+}
+.content-footer {
+  	background-color: #4C4C4C;
+  	color: #FFFFFF;
+  	padding: 3em;
+  	font-weight: 300;
+  	letter-spacing: 0.05em;
+  }
+ 
