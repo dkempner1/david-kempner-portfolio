@@ -78,6 +78,11 @@ h1 {
   	font-weight: 300;
   	letter-spacing: 0.05em;
   }
- .main-content .projects-content  #ny-times {
- 	margin-bottom: 200px;
- }
+@media only screen and (max-width: 900px) {
+	
+ 	.top-navigation  {
+    	font-size: .50em;
+  }
+  
+}
+
