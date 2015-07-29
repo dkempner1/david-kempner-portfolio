@@ -40,6 +40,7 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 110%;
 	font-weight: bolder;
+	
 }
 
 .main-content {
@@ -78,11 +79,20 @@ h1 {
   	font-weight: 300;
   	letter-spacing: 0.05em;
   }
+
+  ul.social {
+  	padding: 0px;
+  }
 @media only screen and (max-width: 900px) {
 	
  	.top-navigation  {
     	font-size: .50em;
   }
   
+}
+@media only screen and (max-width: 700px) {
+	.introduction-section, .location-section, .questions-section {
+		padding: 0 5%;
+	}
 }
 
