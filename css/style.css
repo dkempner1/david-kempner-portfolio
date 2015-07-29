@@ -83,6 +83,9 @@ h1 {
   ul.social {
   	padding: 0px;
   }
+  .projects img {
+  	max-width: 100%
+  }
 @media only screen and (max-width: 900px) {
 	
  	.top-navigation  {
