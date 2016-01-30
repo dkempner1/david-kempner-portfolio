@@ -1,6 +1,6 @@
 body {
 	margin: 0 auto;
-	
+
 }
 .content .links li {
 	display: inline-block;
@@ -30,6 +30,11 @@ body {
 	color: #fff;
 }
 
+.projects p {
+	font-style: italic;
+	font-size: .5em;
+}
+
 .introduction-section,
 .location-section,
 .questions-section {
@@ -40,7 +45,7 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 110%;
 	font-weight: bolder;
-	
+
 }
 
 .main-content {
@@ -88,17 +93,17 @@ h1 {
   }
   #karma {
   	margin-top: 50px;
+		margin-bottom: 30px;
   }
 @media only screen and (max-width: 900px) {
-	
+
  	.top-navigation  {
     	font-size: .50em;
   }
-  
+
 }
 @media only screen and (max-width: 700px) {
 	.introduction-section, .location-section, .questions-section {
 		padding: 0 5%;
 	}
 }
-
